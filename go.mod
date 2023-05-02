@@ -13,7 +13,21 @@ require (
 	sigs.k8s.io/controller-runtime v0.14.4
 )
 
-require github.com/magefile/mage v1.9.0 // indirect
+require (
+	github.com/fatih/color v1.13.0 // indirect
+	github.com/gobuffalo/flect v0.3.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.1 // indirect
+	github.com/kudobuilder/kuttl v0.15.0 // indirect
+	github.com/magefile/mage v1.9.0 // indirect
+	github.com/mattn/go-colorable v0.1.12 // indirect
+	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/spf13/cobra v1.6.1 // indirect
+	golang.org/x/mod v0.7.0 // indirect
+	golang.org/x/tools v0.4.0 // indirect
+	k8s.io/code-generator v0.26.1 // indirect
+	k8s.io/gengo v0.0.0-20221011193443-fad74ee6edd9 // indirect
+	sigs.k8s.io/controller-tools v0.11.1 // indirect
+)
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -54,7 +68,7 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10 // indirect
+	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
 	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/term v0.3.0 // indirect
